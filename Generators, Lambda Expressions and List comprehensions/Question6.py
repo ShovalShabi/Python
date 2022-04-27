@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 ###############################Helper function#################################
 def check_div_more_than_num(num):
     sum=0
