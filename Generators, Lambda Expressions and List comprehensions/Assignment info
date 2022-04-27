@@ -1,0 +1,90 @@
+The tasks for each question:
+1) Write a function in one line by using LIST/DICT/SET comprehensions,the fuction receives a list of letters and a list of integers within the range of the length of
+The first list. The function returns a string in which each letter in the first list appears in the position
+according to the second list. For example, for the lists, L1= ['u', 'y', 'e', 'f', 'h', 'a]' and L2= [1,5,3,6,2,4]
+The string "ayfuh" will be returned.
+
+2)Write a function in  one line by using LIST/DICT/SET comprehensions, the function receives a list of tuples, each (i,x) consists of two positive integers.
+The first number i is the index and the second number x is the value.
+The function will return a list that will represnt the values of each index, if there is an index that is missing it'll get the value -1000.
+For exemple if the recieved list is [(4,9), (0,2), (1,4), (3,2)] the function will return  [2, 4, -1000, 2, 9].
+
+3)Write a function in one line by using MAP/REDUCE /FILTER expressions, the function receives a list of tuples, each (i,x) consists of two positive integers.
+The numberfirst i is the index and the second number x is the value.
+The function will return a new list that its length is the largest index that stored within one of the tuples (reminder index starts from 0).
+For exemple if the recieved list is [(4,9), (0,2), (1,4), (3,2)] the function will return  [2, 2, 2, 2, 2].
+
+4)a.Write a function using LIST comprehension, the fuction receives a list of numbers.
+The function will return a list of numbers that meet the following conditions:
+(A) Any number in the original list that is even and its position is even - will be divided by 2.
+(B) Any number in the original list that is odd and its position is even or alternatively is an even number and its unequal position will be restored as it is.
+(C) Any number in the original list that is odd and its position odd - will be duplicated in inner list.
+b.Write a function in one line by using MAP/REDUCE /FILTER expressions that removes the inner lists from the result of the last described function.
+
+5)Write the following function without using IF expression and loops of any kind except using MAP / REDUCE / FILTER expressions:
+def func(n):
+  l = []
+  for i in range(n):
+      j = 0
+      while j < i:
+          if j %2 == 0:
+              l.append(j + 5)
+          elif j%3 == 0:
+              l.append(j // 2)
+          elif j %5 == 2:
+              l.append(j)
+          j += 1
+return l
+
+6)Write a generator function that receives a list of integers and returns an iterator of the numbers that the sum of their factors (divisors) is greater than the number itself.
+Write a helper function that receives an integer and returns TRUE if the sum of its divisors does not include itself is equal to or greater than the number itself,
+otherwise - the function will return FALSE.
+a.Implement the function by generator function.
+b.Implement the function by generator function in one line only.
+c.Implement the function by generator class.
+
+7)Write a generator function that receives three tuples when the first two represent hour, each tuple contains 3 integers: first integer for 0-23 which is hours,
+second integer for 0-59 which is minutes and, third integer for 0-59 which is seconds (hh:mm:ss).
+The third tuple represnt the offset jumps in each beat also by the from (hh:mm:ss), starts from the given time in the first tuple and ends in the second tuple.
+a.Implement the function by generator function.
+b.Implement the function by generator class.
+c.Make some changes in the first part of the question by providing the user to send values to the generators by using send expression.
+
+8)Complete the missing lines in the following program so that the output is as shown below:
+def funcA(m, n):
+    if m < n:
+        return _________________
+    elif m == n:
+        return _________________
+    else:
+        return _________________
+
+funcA(3,10)()()()()()()
+funcA(3,7)()()()
+funcA(4,4)()
+funcA(10, 5)()()
+funcA(9, 5)()()
+
+the output is:
+13
+m == n
+m == n
+15
+1
+
+9)Complete the missing lines in the following program so that the output is as shown below:
+def funcB(n):
+    if n == 0:
+        print("the end")
+    else:
+        return ___________________
+        
+funcB(5)()()()()()
+funcB(3)()()()
+funcB(8)()()()()()()()()
+
+the output is:
+the end
+the end
+the end
+
