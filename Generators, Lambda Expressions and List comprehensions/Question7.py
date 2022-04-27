@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 ##################################################Time Generator Function###############################################
 def tick_clock(lst, jump):  #helper method for function
     lst[2]=lst[2] + jump[2]
