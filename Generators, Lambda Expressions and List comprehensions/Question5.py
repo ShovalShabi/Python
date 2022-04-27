@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 def func(n):
     l=[]
     for i in range(n):
