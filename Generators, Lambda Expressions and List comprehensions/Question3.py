@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 from functools import reduce
 
 def new_lst(lst):
