@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 def demand_list(lst):
     return [val if (index %2==0 and val %2!=0)or(index %2!=0 and val %2==0) else int(val/2)if index %2==0 and val %2== 0 else [val,val] for val,index in zip(lst,list(indexes for indexes in range(len(lst))))]
 
