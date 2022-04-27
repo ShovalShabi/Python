@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 def funcA(m, n):
     if m < n:
         return lambda:funcA(m+1,n-1)
