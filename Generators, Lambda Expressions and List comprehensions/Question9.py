@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 def funcB(n):
     if n == 0:
         print("the end")
