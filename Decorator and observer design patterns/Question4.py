@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 #########################################Original block of code#########################################
 sentences = ['Mary read a story to Sam and Isla.', 'Isla cuddled Sam.', 'Sam chortled.']
 sam_count = 0
