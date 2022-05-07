@@ -1,1 +1,88 @@
+Question 1: Write a function using only one line, while using lambda expressions and filter / reduce / map functions.
+The function receives a list of functions defined in the program, and returns a list of all the functions that receive at most one parameter.
 
+Question 2: Write the following program while using only lambda expressions:
+numbers = [1, 2, 3, 4]
+total = 0
+for number in numbers:
+    total += number
+print(total)
+
+Question 3: Use a lambda expressions to write expression in only one line, which checks if there is a natural root for a number.
+If so - the expression will return the root, else the expression will return 0.
+
+Question 4:Convert the loop in the following code to only one line of code while using lambda expressions:
+sentences = ['Mary read a story to Sam and Isla.', 'Isla cuddled Sam.', 'Sam chortled.']
+sam_count = 0
+for sentence in sentences:
+    sam_count += sentence.count('Sam')
+print( sam_count)
+
+Question 5:
+a.Write a decorator over any function that receives only one integer number and return an integer number.
+The decorator will keep a tuple of two numbers: the average input and the average output.
+In each summon of the function that wrapped by the decorator, the updated average values will be printed.
+
+b.Write a decorator over any function, that'll produce a log of the last n suumons of itself.
+For each summon the decorator will save all of the incoming data that the functions recieve, and its outcoming data that the functions return.
+The decorator will support positional and keywords variables, for example:
+>>> @logged
+... def func(*args):
+... return 3 + len(args)
+>>> func(4, 4, 4)
+you called func(4, 4, 4) and it returned 6
+
+Question 6:Write a decorator over any function,  which trace the use of the fuctions that went through the decorator, each time it'll print the last 3 names of
+of the functions that passed through the decorator.
+The first two times - there will be no printing at all.
+
+Question 7:Use design pattern Observer to implement the class Twitter,so other objects will be able to track the messages of other objects.
+Run the following snippet code:
+a = Twitter('Alice')
+k = Twitter('King')
+q = Twitter('Queen')
+h = Twitter('Mad Hatter')
+c = Twitter('Cheshire Cat')
+a.follow(c).follow(h).follow(q)
+k.follow(q)
+q.follow(q).follow(h)
+h.follow(a).follow(q).follow(c)
+print(f'==== {q.name} tweets ====')
+q.tweet('Off with their heads!')
+print(f'\n==== {a.name} tweets ====')
+a.tweet('What a strange world we live in.')
+print(f'\n==== {k.name} tweets ====')
+k.tweet('Begin at the beginning, and go on till you
+come to the end: then stop.')
+print(f'\n==== {c.name} tweets ====')
+c.tweet("We're all mad here.")
+print(f'\n==== {h.name} tweets ====')
+h.tweet('Why is a raven like a writing-desk?')
+
+Question 9:Complete the missing lines in the following code, so the output of the program will be as below:
+class a():
+_____________________
+ def __init__(self,y):
+_________________________
+ def _________________:
+ if z > self.y:
+ return z-self.y
+ else:
+ return self.y-z
+class b(_____):
+ def ________________________:
+ if z > self.y:
+ return z-self.y
+ else:
+ return self.y-z
+print(a(5)(b(6)()))
+print(a(6)(b(5)(6)))
+
+*the output*:
+3
+5
+
+Question 10:Write a decorator over any function. That in each summon of the decorator it'll print the amount of use of the wrapped function that is currently
+in the decorator (at runtime) and the amount of times that the decorator has been used.
+In addition the decorator will track the types of the returned values of the wrapped functions such as (Int, Float, Bool, Str, List,Set, Dict and Tuple), the
+decorator will support positional and keywords variables.
