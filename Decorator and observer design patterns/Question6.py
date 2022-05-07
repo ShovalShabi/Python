@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 funcs=[]
 def dec_3last_funcs(func):
     global funcs
