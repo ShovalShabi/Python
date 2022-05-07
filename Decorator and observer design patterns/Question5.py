@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 #########################################################Average Decorator function#####################################
 sum_io=(0,0)  #0-sum of average input, 1-sum of average output
 tup_avg=(0,0)
