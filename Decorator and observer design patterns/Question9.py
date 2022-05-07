@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 z = 4
 class a():
     global z
