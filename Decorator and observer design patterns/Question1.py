@@ -17,5 +17,3 @@ def foo4(x):
 
 
 print(one_arg_func([foo1,foo2,foo3,foo4]))  #returns every function that receives at most 1 parameters
-
-
