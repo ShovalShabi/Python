@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 ####################################################################
 #wrapped_func_use is dictionary destined for the summoned functions
 #str- destined for the name of the function
@@ -73,6 +72,3 @@ func1('hey')
 func1((0,1,2,9),5)
 func1(True)
 func3()
-
-
-
