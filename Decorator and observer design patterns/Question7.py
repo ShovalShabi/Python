@@ -1,4 +1,3 @@
-#Presentor:Shoval Shabi ID:208383885
 class Twitter:
     def __init__(self,name):
         self.name=name
