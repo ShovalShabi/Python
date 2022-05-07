@@ -1,5 +1,5 @@
 from inspect import signature
-#Presentor:Shoval Shabi ID:208383885
+
 def one_arg_func(lst):
     return list(map(lambda func:func.__name__,filter(lambda header:len(signature(header).parameters)<2,lst)))
 
